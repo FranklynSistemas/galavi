@@ -38,7 +38,7 @@
 		<div id="menuFooter">
 			<span>Menu</span>
 		</div>
-		<div id="Titulo" class="wow slideInRight" data-wow-delay=".1s">
+		<div id="Titulo" class="wow slideInLeft" data-wow-delay=".1s">
 			<h1>SOLUCIONES</h1>
 		</div>
 		<div class="flecha wow slideInLeft" data-wow-delay=".2s" id="flechaSoliciones">
@@ -58,15 +58,26 @@
 				<!--<div id="menuFooter">
 					<span>Menu</span>
 				</div>	-->
-				<video autoplay="autoplay" loop="loop" id="bgvid">
+				<div class="video-container">
+			        <div class="filter"></div>
+			        <video autoplay="autoplay" loop="loop" class="fillWidth">
+			            <source src="assets/videos/Analog-Typing.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+			            <source src="assets/videos/Analog-Typing.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+			            <source src="assets/videos/Analog-Typing.ogv" type="video/ogg" />Your browser does not support the video tag. I suggest you upgrade your browser.
+			        </video>
+			        <!--<div class="poster hidden">
+			            <img src="assets/videos/New-York-Sky.jpg" alt="">
+			        </div>-->
+			    </div>
+				<!--<video autoplay="autoplay" loop="loop" id="bgvid">
 				    <source src="http://taxify.co/wp-content/uploads/2014/06/file.mp4" type="video/mp4" /> 
-				</video>
+				</video>-->
 		</section>
 		<section id="twoSoluciones">
 			<div class="centerSoluciones">
-					<h1 class="wow slideInRight" data-wow-delay=".3s">Impuestos</h1>
+					<h1 class="wow slideInLeft" data-wow-delay=".3s">Impuestos</h1>
 					<p class="wow slideInLeft" data-wow-delay=".4s" align="justify">Los efectos tributarios en la toma de decisiones, en la estructuración de un proyecto de inversión o en la implementación de un modelo de negocio, son un factor esencial a tener en cuenta en la vida de las personas y las corporaciones.</p>
-					<p class="wow slideInRight" data-wow-delay=".5s" align="justify">Una adecuada planificación tributaria o el planteamiento de una estrategia jurídica oportuna ahorran vida, tiempo y dinero, GALAVI LEGAL ofrece a sus clientes una asesoría legal y tributaria comprensible, oportuna, estratégica y sostenible en las siguientes unidades de negocio:</p>
+					<p class="wow slideInLeft" data-wow-delay=".5s" align="justify">Una adecuada planificación tributaria o el planteamiento de una estrategia jurídica oportuna ahorran vida, tiempo y dinero, GALAVI LEGAL ofrece a sus clientes una asesoría legal y tributaria comprensible, oportuna, estratégica y sostenible en las siguientes unidades de negocio:</p>
 					<ul class="wow slideInLeft" data-wow-delay=".6s" style="text-align: justify;">
 						<li>Due diligence legal.</li>
 						<li>Due diligence tributario.</li>
@@ -76,10 +87,10 @@
 						<li>Planificación tributaria empresarial y de proyectos de inversión.</li>
 						<li>Precios de transferencia.</li>
 					</ul>
-					<h1 class="wow slideInRight" data-wow-delay=".7s">Contratación Estatal</h1>
+					<h1 class="wow slideInLeft" data-wow-delay=".7s">Contratación Estatal</h1>
 					<p class="wow slideInLeft" data-wow-delay=".9s" align="justify">El sistema de compras publicas de un país es una estructura compleja que requiere de una planificación adecuada para lograr los objetivos, GALAVI LEGAL ofrece asesoría especializada en las siguientes líneas de servicio:</p>
 
-					<ul class="wow slideInRight" data-wow-delay=".8s" style="text-align: justify;">
+					<ul class="wow slideInLeft" data-wow-delay=".8s" style="text-align: justify;">
 						<li>Due diligence en contratación estatal.</li>
 						<li>Estructuración de proyectos en contratación estatal.</li>
 						<li>Recursos administrativos y agotamiento de la vía gubernativa.</li>
@@ -94,7 +105,7 @@
 					</ul>
 
 					<h1 class="wow slideInLeft" data-wow-delay=".9s">Búsqueda de oportunidades en compras públicas</h1>
-					<p class="wow slideInRight" data-wow-delay=".10s" align="justify">GALAVI LEGAL ha desarrollado una plataforma tecnológica que simplifica el acceso de las personas a la búsqueda de las oportunidades de negocio provenientes del sistema de compra publicas, la herramienta INPRIX facilita la pluralidad de oferentes de acuerdo a los requerimientos y observaciones de la OCDE.</p>
+					<p class="wow slideInLeft" data-wow-delay=".10s" align="justify">GALAVI LEGAL ha desarrollado una plataforma tecnológica que simplifica el acceso de las personas a la búsqueda de las oportunidades de negocio provenientes del sistema de compra publicas, la herramienta INPRIX facilita la pluralidad de oferentes de acuerdo a los requerimientos y observaciones de la OCDE.</p>
 
 				</div>
 				<!-- Footer -->
@@ -108,7 +119,7 @@
 		<script src="assets/js/main.js"></script>
 		<script>
 			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
+			//window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
 	</body>
